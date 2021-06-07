@@ -35,7 +35,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                     if sementeQTE >= 1 then
                         if plantado[i] == 0 then
                             CurrentAction     = 'Weed_apanha1'
-                            CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per piantare dei semi di marijuana.'
+                            CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om marihuanazaden te planten.'
                             CurrentActionData = {}
                         end
                     end
@@ -46,7 +46,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                 if myJob ~= 'police' and myJob ~= 'sheriff' and myJob ~= 'state' and myJob ~= 'ambulance' then
                     if (pronto[i] == 0 and plantado[i] == 1) then
                         CurrentAction     = 'Weed_menu1'
-                        CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per accedere al menu.'
+                        CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om het menu te openen.'
                         CurrentActionData = {}
                     end
                 end
@@ -56,7 +56,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                 if myJob ~= 'police' and myJob ~= 'sheriff' and myJob ~= 'state' and myJob ~= 'ambulance' then
                     if pronto[i] == 1 then
                         CurrentAction     = 'Weed_colheita1'
-                        CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per coltivare erba.'
+                        CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om wiet te kweken.'
                         CurrentActionData = {}
                     end
                 end
@@ -67,7 +67,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                     if sementeQTE >= 1 then
                         if plantado[i] == 0 then
                             CurrentAction     = 'Weed_apanha2'
-                            CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per piantare dei semi di marijuana.'
+                            CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om marihuanazaden te planten.'
                             CurrentActionData = {}
                         end
                     end
@@ -78,7 +78,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                 if myJob ~= 'police' and myJob ~= 'sheriff' and myJob ~= 'state' and myJob ~= 'ambulance' then
                     if (pronto[i] == 0 and plantado[i] == 1) then
                         CurrentAction     = 'Weed_menu2'
-                        CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per accedere al menu.'
+                        CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om het menu te openen.'
                         CurrentActionData = {}
                     end
                 end
@@ -88,7 +88,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                 if myJob ~= 'police' and myJob ~= 'sheriff' and myJob ~= 'state' and myJob ~= 'ambulance' then
                     if pronto[i] == 1 then
                         CurrentAction     = 'Weed_colheita2'
-                        CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per coltivare erba.'
+                        CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om wiet te kweken.'
                         CurrentActionData = {}
                     end
                 end
@@ -99,7 +99,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                     if sementeQTE >= 1 then
                         if plantado[i] == 0 then
                             CurrentAction     = 'Weed_apanha3'
-                            CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per piantare dei semi di marijuana.'
+                            CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om marihuanazaden te planten.'
                             CurrentActionData = {}
                         end
                     end
@@ -110,7 +110,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                 if myJob ~= 'police' and myJob ~= 'sheriff' and myJob ~= 'state' and myJob ~= 'ambulance' then
                     if (pronto[i] == 0 and plantado[i] == 1) then
                         CurrentAction     = 'Weed_menu3'
-                        CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per accedere al menu.'
+                        CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om het menu te openen.'
                         CurrentActionData = {}
                     end
                 end
@@ -120,7 +120,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                 if myJob ~= 'police' and myJob ~= 'sheriff' and myJob ~= 'state' and myJob ~= 'ambulance' then
                     if pronto[i] == 1 then
                         CurrentAction     = 'Weed_colheita3'
-                        CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per coltivare erba.'
+                        CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om wiet te kweken.'
                         CurrentActionData = {}
                     end
                 end
@@ -131,7 +131,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                     if sementeQTE >= 1 then
                         if plantado[i] == 0 then
                             CurrentAction     = 'Weed_apanha4'
-                            CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per piantare dei semi di marijuana.'
+                            CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om marihuanazaden te planten.'
                             CurrentActionData = {}
                         end
                     end
@@ -142,7 +142,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                 if myJob ~= 'police' and myJob ~= 'sheriff' and myJob ~= 'state' and myJob ~= 'ambulance' then
                     if (pronto[i] == 0 and plantado[i] == 1) then
                         CurrentAction     = 'Weed_menu4'
-                        CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per accedere al menu.'
+                        CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om het menu te openen.'
                         CurrentActionData = {}
                     end
                 end
@@ -152,7 +152,7 @@ AddEventHandler('weedz:hasEnteredMarker', function(zone)
                 if myJob ~= 'police' and myJob ~= 'sheriff' and myJob ~= 'state' and myJob ~= 'ambulance' then
                     if pronto[i] == 1 then
                         CurrentAction     = 'Weed_colheita4'
-                        CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per coltivare erba.'
+                        CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om wiet te kweken.'
                         CurrentActionData = {}
                     end
                 end
@@ -236,7 +236,7 @@ RegisterNetEvent('weedz:sucessplanted')
 AddEventHandler("weedz:sucessplanted", function(Spot)
     pronto[Spot] = 0
     CurrentAction             = nil
-    CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per accedere al menu.'
+    CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om het menu te openen.'
 	isInMarker = false
 	hasAlreadyEnteredMarker = false
 	TriggerServerEvent('weedz:savecampo', Spot, growtime, 0, startingwater, 0, startingquality)
@@ -245,7 +245,7 @@ end)
 RegisterNetEvent('weedz:sucessfarm')
 AddEventHandler("weedz:sucessfarm", function(Spot)
     pronto[Spot] = 0
-    CurrentActionMsg  = 'Premi ~INPUT_CONTEXT~ per piantare dei semi di marijuana.'
+    CurrentActionMsg  = 'Druk op ~INPUT_CONTEXT~ om marihuanazaden te planten.'
     CurrentActionData = {}
 	isInMarker = false
 	hasAlreadyEnteredMarker = false
@@ -274,10 +274,10 @@ Citizen.CreateThread(function()
 				        local sec = SecondsToClock(tempo[1])
 				        DrawText3D(v.x, v.y, v.z - 0.6, sec)
 				    else
-				        DrawText3D(v.x, v.y, v.z - 0.6, "Pronta")
+				        DrawText3D(v.x, v.y, v.z - 0.6, "Klaar")
 				    end
 				else
-				    DrawText3D(v.x, v.y, v.z - 0.6, "Pianta qui")
+				    DrawText3D(v.x, v.y, v.z - 0.6, "Hier planten")
 				end
 			end
         end
@@ -289,10 +289,10 @@ Citizen.CreateThread(function()
 				        local sec = SecondsToClock(tempo[2])
 				        DrawText3D(v.x, v.y, v.z - 0.6, sec)
 				    else
-				        DrawText3D(v.x, v.y, v.z - 0.6, "Pronta")
+				        DrawText3D(v.x, v.y, v.z - 0.6, "Klaar")
 				    end
 				else
-				    DrawText3D(v.x, v.y, v.z - 0.6, "Pianta qui")
+				    DrawText3D(v.x, v.y, v.z - 0.6, "Hier planten")
 				end
 			end
         end
@@ -304,10 +304,10 @@ Citizen.CreateThread(function()
 				        local sec = SecondsToClock(tempo[3])
 				        DrawText3D(v.x, v.y, v.z - 0.6, sec)
 				    else
-				        DrawText3D(v.x, v.y, v.z - 0.6, "Pronta")
+				        DrawText3D(v.x, v.y, v.z - 0.6, "Klaar")
 				    end
 				else
-				    DrawText3D(v.x, v.y, v.z - 0.6, "Pianta qui")
+				    DrawText3D(v.x, v.y, v.z - 0.6, "Hier planten")
 				end
 			end
         end
@@ -319,10 +319,10 @@ Citizen.CreateThread(function()
 				        local sec = SecondsToClock(tempo[4])
 				        DrawText3D(v.x, v.y, v.z - 0.6, sec)
 				    else
-				        DrawText3D(v.x, v.y, v.z - 0.6, "Pronta")
+				        DrawText3D(v.x, v.y, v.z - 0.6, "Klaar")
 				    end
 				else
-				    DrawText3D(v.x, v.y, v.z - 0.6, "Pianta qui")
+				    DrawText3D(v.x, v.y, v.z - 0.6, "Hier planten")
 				end
 			end
         end

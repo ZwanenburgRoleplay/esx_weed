@@ -30,8 +30,8 @@ rainamountofwater = 10
 
 Config              = {}
 Config.MarkerType   = 2
-Config.DrawDistance = 100.0
-Config.ZoneSize     = {x = 1.8, y = 1.2, z = 0.3}
+Config.DrawDistance = 8.0
+Config.ZoneSize     = {x = 0.2, y = 0.2, z = 0.3}
 Config.MarkerColor  = {r = 100, g = 204, b = 100}
 
 Config.ZoneP = {
